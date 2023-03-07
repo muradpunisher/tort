@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+#social ul li {
+    display: inline;
+    margin: 0 10px;
+    /* list-style: none; */
+}
+
+#social ul li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(212, 150, 24);
+    position: relative;
+    outline: none;
+    border-color: brown;
+}
+
+#social ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#social ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#social ul li a:hover i {
+    color: rgb(2, 80, 226);
+}
+
+.blue {
+    color: rgb(128, 0, 0);
+}
+
+.tok {
+    color: darkblue;
+}
+
+.tos {
+    color: aqua;
+}
+
+.din {
+    color: blueviolet;
+}
+
+.bol {
+    color: darkmagenta;
+}
+
+
+
+
+/* .box {
+    width: 50px;
+    height: 5px;
+    background-image: linear-gradient();
+}
+
+.box {
+    background-image: -moz-radial-gradient();
+    width: 20px;
+    height: 15px;
+}
+
+label {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+
+input:checked+.box {
+    background-image: -o-linear-gradient();
+}
+
+input {
+    display: none;
+}
+
+body {
+    background-color: #14d9e4;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+#one css start #one {
+    width: 600px;
+    background-color: #ec2828;
+}
+
+#one h1 {
+    font: 800 24px 'Open Sans', sans-serif;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 0px #cd502c);
+} */
